@@ -7,7 +7,8 @@ on:
       - master
     paths:
       - "docker/Dockerfile"
-
+      
+      
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
